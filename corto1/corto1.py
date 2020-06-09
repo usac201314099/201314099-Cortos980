@@ -16,9 +16,17 @@ def Secuencia(numero): #funcion para hacer la secuencia
             Collatz.append(N) # si no es para 
             N=3*N+1
     Collatz.append(1) #agraga la ailtima cifra 1       
+    #print(Collatz)  
+
+
+cont=1
+while cont < 99: #CONTADOR 201314099 ---099
+    cont=cont+1
+    print(cont)
+    Secuencia(cont)
     print(Collatz)  
 
-Secuencia(6)
+#Secuencia(6)
     
     
     
